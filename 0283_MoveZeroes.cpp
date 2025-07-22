@@ -1,3 +1,6 @@
+//Puts all non-zero values in front
+//Fills rest with zeroes
+
 class Solution {
 public:
     void moveZeroes(vector<int>& nums) {
