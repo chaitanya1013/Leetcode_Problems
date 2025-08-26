@@ -2,7 +2,6 @@
 class Solution {
 public:
     vector<int> majorityElement(vector<int>& nums) {
-        // int cal = nums / 3;
         int n = nums.size();
         vector<int> ls;
         for(int i = 0; i < n; i++){
