@@ -13,7 +13,7 @@ public:
         int ans = high;
 
         while (low <= high) {
-            int mid = low + (high - low) / 2;
+            int mid = (low + high) / 2;
 
             int bouquets = 0;
             int flowers = 0;
