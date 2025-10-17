@@ -5,3 +5,4 @@ public:
         node->next = node->next->next;
     }
 };
+
